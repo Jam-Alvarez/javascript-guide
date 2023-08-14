@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="subscribe-container">
+        <label for="js-checkbox">subscribe</label>
+        <input id="js-checkbox" type="checkbox">
+    </div>
+
+    <div class="card-container">
+        <!-- since they have the same name "card", these elements belong to a same group -->
+        <label for="js-visa-btn">Visa</label>
+        <input id="js-visa-btn" type="radio" name="card">
+
+        <label for="js-mastercard-btn">MasterCard</label>
+        <input id="js-mastercard-btn" type="radio" name="card">
+
+        <label for="js-paypal-btn">PayPal</label>
+        <input id="js-paypal-btn" type="radio" name="card">
+    </div>
+
+    <button id="js-submit-btn">submit</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
