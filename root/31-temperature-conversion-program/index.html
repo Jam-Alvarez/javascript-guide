@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>31 Temperature Conversion Program</title>
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <label for="">Enter a temperature:</label>
+            <input id="js-temp-input" type="number" placeholder="0">
+        </div>
+
+        <label for="">Convert to:</label>
+        <div>
+            <input id="js-celcius-btn" type="radio" name="unit">
+            <label for="js-celcius-btn">Celcius</label>
+            <input id="js-fahrenheit-btn" type="radio" name="unit">
+            <label for="js-fahrenheit-btn">Fahrenheit</label>
+        </div>
+
+        <button id="js-submit-btn" type="submit">Convert</button>
+
+        <div id="js-display"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
