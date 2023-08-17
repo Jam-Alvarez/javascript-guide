@@ -1,0 +1,18 @@
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cascadia Mono';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
