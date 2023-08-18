@@ -10,7 +10,7 @@
 
 
     Note: I created this for beginners and also a note for myself 
-    incase I forgot some JavaScript codes and its puposes.
+    incase I forgot some JavaScript codes and its purposes.
 
     Feel free to add, update, change or modify something that 
     will make this guide much better! will be much appreciated.
