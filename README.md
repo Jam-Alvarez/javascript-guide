@@ -14,3 +14,9 @@
 
     Feel free to add, update, change or modify something that 
     will make this guide much better! will be much appreciated.
+
+    ======================================================================
+
+    Starting from topic/folder 70, comments will be decreased.
+    Codes are getting more complicated so in order to reduce that, 
+    I'll start by minimizing the comments I'll put.
