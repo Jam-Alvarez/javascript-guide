@@ -1,0 +1,9 @@
+
+#js-div {
+    position: relative;
+    background: linear-gradient(45deg, lightblue, lightpink);
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
