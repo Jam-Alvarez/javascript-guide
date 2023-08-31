@@ -1,0 +1,8 @@
+
+#js-div {
+    position: relative;
+    background: linear-gradient(120deg, blue, pink);
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+}
