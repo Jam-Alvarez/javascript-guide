@@ -1,0 +1,12 @@
+
+#js-outer-div {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+#js-inner-div {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+}
