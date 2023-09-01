@@ -1,0 +1,61 @@
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cascadia Mono';
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: black;
+}
+
+body .time-container {
+    text-align: center;
+    background: 
+    linear-gradient(45deg, lightblue, lightpink, rgba(10, 45, 99, 0.5)),
+    url("alice.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    color: white;
+    border-radius: 50px;
+    padding: 20px 0 20px 0;
+}
+
+body .time-display {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0 20px;
+    border-radius: 16px;
+    font-size: 7rem;
+}
+
+.btn-container .btn {
+    border-radius: 8px;
+    padding: 10px 30px;
+    margin-top: 8px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-container 
+.start-btn,
+.pause-btn,
+.reset-btn {
+    background-color: rgba(0, 0, 0);
+}
+
+
+
+
